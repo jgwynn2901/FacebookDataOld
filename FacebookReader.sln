@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookReader", "FacebookReader\FacebookReader.csproj", "{2FA6E80E-C97A-4D61-A585-4297BFD6EDC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFacebookReader", "TestFacebookReader\TestFacebookReader.csproj", "{5C65031B-E50B-4D6A-9C2A-DBFEAFEDAA2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA6E80E-C97A-4D61-A585-4297BFD6EDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA6E80E-C97A-4D61-A585-4297BFD6EDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA6E80E-C97A-4D61-A585-4297BFD6EDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA6E80E-C97A-4D61-A585-4297BFD6EDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C65031B-E50B-4D6A-9C2A-DBFEAFEDAA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C65031B-E50B-4D6A-9C2A-DBFEAFEDAA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C65031B-E50B-4D6A-9C2A-DBFEAFEDAA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C65031B-E50B-4D6A-9C2A-DBFEAFEDAA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {951D2231-A1CA-43B9-86DE-75438F9842C0}
+	EndGlobalSection
+EndGlobal
