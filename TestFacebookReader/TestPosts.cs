@@ -10,11 +10,12 @@ namespace TestFacebookReader
   public class TestPosts
   {
     private NpgsqlConnection _connection;
-    private readonly string _settings = "Host=localhost;Username=postgres;Password=great1;Database=SocialMediaArchive";
+    private const string Settings = "Host=localhost;Username=postgres;Password=great1;Database=SocialMediaArchive";
+
     [SetUp]
     public void Setup()
     {
-      _connection = new NpgsqlConnection(_settings);
+      _connection = new NpgsqlConnection(Settings);
       _connection.Open();
       _connection.Execute("SET search_path = \"Facebook\"");
     }
